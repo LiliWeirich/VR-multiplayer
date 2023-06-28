@@ -9,8 +9,8 @@ public class NetworkPlayerSpawner : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-        _spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player",
-        transform.position, transform.rotation);
+        _spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
+        //_spawnedPlayerPrefab.transform.position = XROrigin.transform.position; //need to define XR origin
     }
     public override void OnLeftRoom()
     {

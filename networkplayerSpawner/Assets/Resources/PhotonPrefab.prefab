@@ -60,9 +60,9 @@ GameObject:
   - component: {fileID: 5184695124276463383}
   - component: {fileID: 4510795432176359248}
   - component: {fileID: 1093922040842978512}
-  - component: {fileID: 1393006097804363648}
+  - component: {fileID: 975195324318430098}
   m_Layer: 0
-  m_Name: Network Player
+  m_Name: PhotonPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &1393006097804363648
+--- !u!114 &975195324318430098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,12 +137,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1330919564625584417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa5e40f5ddfe29e44b0682ecc5fef54f, type: 3}
+  m_Script: {fileID: 11500000, guid: 30b26eb69e83d514490552ae76e9b6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Head: {fileID: 8333117862397009243}
-  _RightHand: {fileID: 2649903604874403201}
-  _LeftHand: {fileID: 1976154991756370260}
 --- !u!1 &1550779533904298823
 GameObject:
   m_ObjectHideFlags: 0
